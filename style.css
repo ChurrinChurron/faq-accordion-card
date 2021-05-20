@@ -104,12 +104,18 @@ body {
     color: rgb(100, 100, 100);
     line-height: 1.6em;
     margin: 3.5% 5% 0 0;
+    transition: 0.4s ease-in-out;
 }
 
 .mostrar p{
 
     display: block;
     transition: 0.4s ease-in-out;
+}
+
+.mostrar h4 {
+
+   font-weight: bolder;
 }
 
 .mostrar h4::after {
